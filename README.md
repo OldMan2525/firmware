@@ -1,4 +1,8 @@
 # firmware
+
+Update 2021-April 22nd:
+Alex_qm just released the Aquila specific port of the Marlin UI extended firmware 1.3.0 for our beloved Voxelab Aquila. Here is my manual mesh version of that update, in the manualmesh_1.3.0_GD+STM_Universal/ directory. The build is now Universally compatible with both the STM32F103 and Giga Devices GD32F103! Screen brightness control is now a new feature. All of my previous modifications listed below for 1.2.2A have been retained in this new build. If you are updating from 1.2.2A, you do NOT need to reflash the DWIN screen. DWIN has not changed, those files are identical in both the 1.2.2A and 1.3.0 firmware directories.
+
 A place for OldMan2525 binary builds of various Voxelab Aquila Marlin firmware
 
 In the manualmesh folder is my build of Alex_qm's Marlin UI extended firmware 1.2.2A for the Voxelab Aquila printer. Special things I've enabled:
